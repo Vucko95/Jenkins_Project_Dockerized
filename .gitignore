@@ -1,0 +1,5 @@
+jenkins
+env
+*.class*
+tiger_project/target/classes/com/awesometiger/project/tiger_project/TigerProjectApplication.class
+tiger_project/target/test-classes/com/awesometiger/project/tiger_project/TigerProjectApplicationTests.class

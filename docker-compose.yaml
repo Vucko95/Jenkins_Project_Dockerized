@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    # command: bash -c "apt-get update && apt-get install -y maven"
+    container_name: jenkins
+    volumes:
+      - C:/Users/ronal/Documents/Github/Jenkins_Dockerized_Project/jenkins:/var/jenkins_home
+      - C:/Users/ronal/Documents/Github/Jenkins_Dockerized_Project/tiger_project:/var/tiger_project
