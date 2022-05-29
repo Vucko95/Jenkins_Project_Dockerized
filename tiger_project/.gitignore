@@ -1,0 +1,36 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+./tiger_project/target/*
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+tiger_project\target*
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+tiger_project/target/classes/com/awesometiger/project/tiger_project/TigerProjectApplication.class
+tiger_project/target/test-classes/com/awesometiger/project/tiger_project/TigerProjectApplicationTests.class
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
